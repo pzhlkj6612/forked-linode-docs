@@ -58,16 +58,16 @@ The instructions below install Xfce4 and LightDM on Debian 11. You are not limit
     sudo apt install lightdm lightdm-gtk-greeter
     ```
 
-1.  Set your new display manager as the system default. The command below opens up a prompt that lets you select your preference from all display managers that are currently installed.
-
-    ```command
-    sudo dpkg-reconfigure lightdm
-    ```
-
 1.  Configure the system to boot into the graphical target so LightDM starts automatically on restart.
 
     ```command
     sudo systemctl set-default graphical.target
+    ```
+
+1.  (Optional) Confirm LightDM is selected as the default display manager. Installing LightDM triggers this prompt automatically, but if you installed other display managers afterward, you can rerun the selector before rebooting.
+
+    ```command
+    sudo dpkg-reconfigure lightdm
     ```
 
 ## Access Glish and the Linux Desktop
