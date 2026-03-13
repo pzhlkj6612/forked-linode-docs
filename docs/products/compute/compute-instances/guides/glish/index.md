@@ -64,7 +64,7 @@ The instructions below install Xfce4 and LightDM on Debian 11. You are not limit
     sudo systemctl set-default graphical.target
     ```
 
-1.  (Optional) Confirm LightDM is selected as the default display manager. Installing LightDM triggers this prompt automatically, but if you installed other display managers afterward, you can rerun the selector at any time.
+1.  (Optional) Confirm LightDM is selected as the default display manager. You may be prompted to select a default display manager when installing LightDM; if prompted, select LightDM. If you installed other display managers afterward, you can rerun the selector at any time.
 
     ```command
     sudo dpkg-reconfigure lightdm
