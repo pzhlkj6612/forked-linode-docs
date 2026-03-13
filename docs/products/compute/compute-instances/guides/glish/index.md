@@ -96,7 +96,7 @@ The instructions below install Xfce4 and LightDM on Debian 11. You are not limit
 
     ![Select the desktop environment within LightDM](glish-login-lightdm-select-desktop.png)
 
-    If your display manager is not working properly, you may still see the tty prompt as shown below. If this is the case, go back to *weblish* and troubleshoot.
+    If your display manager is not working properly, you may still see the tty prompt as shown below. If this is the case, go back to *Weblish* or SSH and troubleshoot.
 
     ![Screenshot of tty in Glish](glish-tty1.png)
 
