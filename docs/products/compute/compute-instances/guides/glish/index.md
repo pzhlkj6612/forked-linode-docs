@@ -52,7 +52,7 @@ The instructions below install Xfce4 and LightDM on Debian 11. You are not limit
     sudo apt install xfce4 xfce4-goodies dbus-x11 firefox-esr
     ```
 
-1.  Install a display manager, which provides a graphical login screen. This lets you log in as your desired user and with your preferred desktop environment. There are many display managers available, including [LightDM](https://wiki.debian.org/LightDM), [GDM](https://wiki.debian.org/GDM) (Gnome Desktop Manager), [SDDM](https://wiki.debian.org/SDDM), and [Ly](https://github.com/fairyglade/ly). This guide uses LightDM with the GTK greeter (on Ubuntu, LightDM alone does not install a greeter).
+1.  Install a display manager, which provides a graphical login screen. This lets you log in as your desired user and with your preferred desktop environment. There are many display managers available, including [LightDM](https://wiki.debian.org/LightDM), [GDM](https://wiki.debian.org/GDM) (Gnome Desktop Manager), [SDDM](https://wiki.debian.org/SDDM), and [Ly](https://github.com/fairyglade/ly). This guide uses LightDM with the GTK greeter.
 
     ```command
     sudo apt install lightdm lightdm-gtk-greeter
